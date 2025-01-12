@@ -1,0 +1,50 @@
+/* src/styles.css */
+
+/* Main Container */
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Filter Section */
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter-section select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Inventory Count Section */
+  .inventory-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .inventory-section h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Chart Section */
+  .chart-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* History Log Section */
+  .history-section {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
